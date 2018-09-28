@@ -17,12 +17,18 @@ jim.addEventListener('click',function(){
 	console.log('hi');
 	jimClick();
 })
-pam.addEventListener('click',function(){console.log('one')})
+pam.addEventListener('click',function(){
+	console.log('one');
+	pamClick();
+})
 mike.addEventListener('click',function(){
 	console.log('welcome');
 	mikeClick();
 })
-dwight.addEventListener('click',function(){console.log('konichiwa')})
+dwight.addEventListener('click',function(){
+	console.log('konichiwa');
+	dwightClick();
+})
 
 function jimClick(){
 	employeeImage.style.backgroundImage = 'url('+jimUrl+')';
@@ -77,6 +83,64 @@ function mikeClick(){
 
 
 	employeeText.innerHTML = 'Michael Gary Scott was born March 15, 1964 in Scranton, Pennsylvania. He came from a relatively difficult childhood of loneliness. In "Diversity Day", Michael claims to be of English, Irish, German and Scottish ancestry. He also claims to be two-fifteenths Native American. He has mentioned a stepfather, Jeff, whom he despises. In "Nepotism", it is revealed that Michael had a half-sister, from whom he was estranged for 15 years. As a consequence of their reunion, Michael hires his nephew Luke as an intern for the office, but eventually confronts the incompetent and rude Luke and ends up spanking him in front of the office, leading Luke to burst into tears and quit. In the episode "Take Your Daughter to Work Day", Michael makes the claim that he was a child star on a kids show called Fundle Bundle; however, it becomes clear that he simply appeared on the show as one of many guest children. In the old recording being played, he speaks touchingly about what he wanted when he grew up: get married, have "100 kids" so he could then have "100 friends" and none of them could say no to being his friend. Michael did not attend college, having lost all his tuition money in a pyramid scheme.'
+	employeeText.style.fontSize = '1em';
+	employeeText.style.gridColumn = '2/3';
+	employeeText.style.gridRow  = '1/3';
+	employeeText.style.fontWeight = 'bold';
+}
+
+function pamClick(){
+	employeeImage.style.backgroundImage = 'url('+pamUrl+')';
+	employeeImage.style.backgroundSize = '100% 100%';
+	employeeImage.style.width = '100%';
+	employeeImage.style.height = '100%';
+	employeeImage.style.gridColumn = '2/3';
+	employeeImage.style.gridRow = '1/2';
+	
+
+	employeeWrapper.style.backgroundSize = 0;
+	employeeWrapper.style.display = 'grid';
+	employeeWrapper.style.gridTemplateRows = '1fr 1fr'
+	employeeWrapper.style.gridTemplateColumns = '1fr 1fr'
+
+	employeeTextH1.innerHTML = "Pam Halpert";
+	employeeTextH1.style.fontSize = '3em';
+	employeeTextH1.style.gridRow = '2/3';
+	employeeTextH1.style.gridColumn = '2/3';
+
+
+
+
+	employeeText.innerHTML = 'In the season 4 premiere, "Fun Run", Jim and Pam confess that they have started dating after the camera crew catches them kissing. The office ultimately learns of their relationship in "Dunder Mifflin Infinity". In "Chair Model", after teasing Pam about his impending proposal, Jim tells the documentary crew he is not kidding around about an engagement and shows them a ring he bought a week after he and Pam started dating. In the next few episodes, Jim fake-proposes to Pam multiple times. In "Goodbye, Toby", Pam discovers shes been accepted at Pratt Institute, an art and design school in Brooklyn . In an interview later in the episode, Jim announces that he will propose to Pam that evening. Just as Jim is preparing to propose, however, Andy Bernard stands up and makes his own impromptu proposal to Angela. Having had his thunder stolen by Andy, Jim reluctantly puts the ring back in his jacket pocket, leaving Pam visibly disappointed as she was expecting Jim to propose that night. In the Season 5 premiere, "Weight Loss", Pam begins her three-month course at the Pratt Institute. In this episode, Jim proposes in the pouring rain at a rest stop, saying that he "cant wait". In "Business Trip", Pam learns that she is failing one of her classes and will have to remain in New York another three months to retake it. Although Jim is supportive and tells her he will wait for her to come back "the right way", she ultimately makes the decision to return home, saying that she realized she hated graphic design and missed Scranton.'
+	employeeText.style.fontSize = '1em';
+	employeeText.style.gridColumn = '1/2';
+	employeeText.style.gridRow  = '1/3';
+	employeeText.style.fontWeight = 'bold'
+}
+function dwightClick(){
+	employeeImage.style.backgroundImage = 'url('+dwightUrl+')';
+	employeeImage.style.backgroundSize = '100% 100%';
+	employeeImage.style.width = '100%';
+	employeeImage.style.height = '100%';
+	employeeImage.style.gridColumn = '1/2';
+	employeeImage.style.gridRow = '1/2';
+	
+
+	employeeWrapper.style.backgroundSize = 0;
+	employeeWrapper.style.display = 'grid';
+	employeeWrapper.style.gridTemplateRows = '1fr .8fr';
+	employeeWrapper.style.gridTemplateColumns = '1fr 1fr';
+
+	employeeTextH1.innerHTML = "Dwight Schrute";
+	employeeTextH1.style.fontSize = '3em';
+	employeeTextH1.style.gridRow = '2/3';
+	employeeTextH1.style.gridColumn = '1/2';
+	employeeTextH1.style.textAlign = 'center';
+
+
+
+
+	employeeText.innerHTML = 'When the series begins, Dwight Schrute is a competent salesman, despite lacking general knowledge, at the Scranton branch of the paper distribution company, Dunder Mifflin. Dwight formally held the title of "Assistant to the Regional Manager",[4] but constantly refers to himself as "Assistant Regional Manager", attempting to elevate himself to second-in-command to branch Manager, Michael Scott. (Michael privately makes him Assistant Manager in "The Fight", tells him that no record/mention will be kept of the "title change only", then never acknowledges it again.) Dwight craves authority over his co-workers, and relishes any minor task that Michael or anyone else will give him.[2] Although Dwight acts superior to many individuals and is often resourceful in crises, he is shown to actually be quite gullible, ignorant, and naïve.[2] For this reason, he is easily tricked and pranked by his desk-mate and fellow salesman, Jim Halpert. Dwight often speaks in a halting, intense manner, even in casual conversations.[2] At the office, his most recurring formal wear is a mustard-colored, short-sleeved collared shirt, with a dark necktie and, usually, a brown suit jacket. He often uses one-upmanship to better himself over his peers, such as boasting about how he trains specific parts of his body.'
 	employeeText.style.fontSize = '1em';
 	employeeText.style.gridColumn = '2/3';
 	employeeText.style.gridRow  = '1/3';
