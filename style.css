@@ -173,7 +173,7 @@
 	background-size: 100% 100%;
 }
 
-.fourthWrapper{
+.midWrapper{
 	display: grid;
 	grid-template-rows: .1fr 1fr;
 	background-image: url('images/bluebg4.jpg');
