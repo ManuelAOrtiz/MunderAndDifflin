@@ -2,7 +2,7 @@
 	margin: 0;
 }
 .wrapper{
-	height: 99.9vh;
+	height: 99vh;
 }
 .signUpWrapper{
 	display: grid;
@@ -46,22 +46,21 @@
 	display: grid;
 	grid-template-rows: .5fr .5fr .5fr 1fr;
 	grid-template-columns: 1fr 2fr;
-	width: 90%;
 	text-align: right;
 	font-size: 2em;
 	font-weight: bold;
 	color: black;
 	text-shadow: 1px 1px black;
-	height: 100%;
+	height: 80%;
 	background-color: lightgrey;
 	margin: 0 auto 3% auto;
 	border:2px solid;
-	width: 80%;
+	width: 70%;
 }
 .contactInfo input{
 	height: 2em;
 	margin-top: 6%;
-	width: 60%;
+	width: 70%;
 }
 .inputName{
 	margin-top: 10%;
