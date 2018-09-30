@@ -44,24 +44,39 @@
 	grid-column: 2/3;
 	grid-row: 3/4;
 	display: grid;
-	grid-template-rows: 2em 2em 2em 2em;
+	grid-template-rows: .5fr .5fr .5fr 1fr;
 	grid-template-columns: 1fr 2fr;
 	width: 90%;
-	grid-row-gap: 2%;
 	text-align: right;
 	font-size: 2em;
 	font-weight: bold;
 	color: black;
 	text-shadow: 1px 1px black;
+	height: 100%;
+	background-color: lightgrey;
+	margin: 0 auto 3% auto;
+	border:2px solid;
+	width: 80%;
 }
 .contactInfo input{
 	height: 2em;
-	margin-top: 1%;
+	margin-top: 6%;
+	width: 60%;
+}
+.inputName{
+	margin-top: 10%;
+}.inputPhone{
+	margin-top: 10%;
+}
+.inputEmail{
+	margin-top: 10%;
 }
 .contactInfo button{
-	margin-top: 1vh;
-	width: 20vw;
+	width: 8vw;
 	grid-column: 2/3;
+	height: 8vh;
+	margin-left: 38%;
+	margin-top: 1%;
 
 }
 .secondWrapper{
