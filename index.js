@@ -143,7 +143,7 @@ function mikeClick(){
 	employeeTextH1.style.textAlign = 'center';
 	employeeTextH1.style.fontSize = '3em';
 	employeeTextH1.style.gridRow = '3/4';
-	employeeTextH1.style.gridColumn = '2/3';
+	employeeTextH1.style.gridColumn = '1/2';
 
 	employeeText.innerHTML = 'Michael Gary Scott was born March 15, 1964 in Scranton, Pennsylvania. He came from a relatively difficult childhood of loneliness. In "Diversity Day", Michael claims to be of English, Irish, German and Scottish ancestry. He also claims to be two-fifteenths Native American. He has mentioned a stepfather, Jeff, whom he despises. In "Nepotism", it is revealed that Michael had a half-sister, from whom he was estranged for 15 years. As a consequence of their reunion, Michael hires his nephew Luke as an intern for the office, but eventually confronts the incompetent and rude Luke and ends up spanking him in front of the office, leading Luke to burst into tears and quit. In the episode "Take Your Daughter to Work Day", Michael makes the claim that he was a child star on a kids show called Fundle Bundle; however, it becomes clear that he simply appeared on the show as one of many guest children. In the old recording being played, he speaks touchingly about what he wanted when he grew up: get married, have "100 kids" so he could then have "100 friends" and none of them could say no to being his friend. Michael did not attend college, having lost all his tuition money in a pyramid scheme.'
 	employeeText.style.fontSize = '1.2em';
@@ -156,14 +156,14 @@ function mikeClick(){
 function pamClick(){
 	employeeImage.style.backgroundImage = 'url('+pamUrl+')';
 	employeeImage.style.backgroundSize = '100% 100%';
-	employeeImage.style.width = '450px';
-	employeeImage.style.height = '487px';
+	employeeImage.style.width = '622px';
+	employeeImage.style.height = '500px';
 	employeeImage.style.gridColumn = '2/3';
 	employeeImage.style.gridRow = '2/3';
 	
 	employeeWrapper.style.backgroundSize = 0;
 	employeeWrapper.style.display = 'grid';
-	employeeWrapper.style.gridTemplateRows = '20vh 1fr 20vh'
+	employeeWrapper.style.gridTemplateRows = '20vh .8fr 20vh'
 	employeeWrapper.style.gridTemplateColumns = '1fr .7fr'
 
 	employeeTextH1.innerHTML = "Pam Halpert";
@@ -193,11 +193,10 @@ function dwightClick(){
 	employeeWrapper.style.gridTemplateColumns = '.7fr 1fr'
 
 	employeeTextH1.innerHTML = "Dwight Schrute";
-	employeeText.style.fontSize = '1.2em';
-	employeeText.style.gridColumn = '2/3';
-	employeeText.style.gridRow  = '1/3';
-	employeeText.style.fontWeight = 'bold';
-	employeeText.style.marginTop = '30%';
+	employeeTextH1.style.textAlign = 'center';
+	employeeTextH1.style.fontSize = '3em';
+	employeeTextH1.style.gridRow = '3/4';
+	employeeTextH1.style.gridColumn = '1/2';
 
 	employeeText.innerHTML = 'When the series begins, Dwight Schrute is a competent salesman, despite lacking general knowledge, at the Scranton branch of the paper distribution company, Dunder Mifflin. Dwight formally held the title of "Assistant to the Regional Manager",[4] but constantly refers to himself as "Assistant Regional Manager", attempting to elevate himself to second-in-command to branch Manager, Michael Scott. (Michael privately makes him Assistant Manager in "The Fight", tells him that no record/mention will be kept of the "title change only", then never acknowledges it again.) Dwight craves authority over his co-workers, and relishes any minor task that Michael or anyone else will give him.[2] Although Dwight acts superior to many individuals and is often resourceful in crises, he is shown to actually be quite gullible, ignorant, and naïve.[2] For this reason, he is easily tricked and pranked by his desk-mate and fellow salesman, Jim Halpert. Dwight often speaks in a halting, intense manner, even in casual conversations.[2] At the office, his most recurring formal wear is a mustard-colored, short-sleeved collared shirt, with a dark necktie and, usually, a brown suit jacket. He often uses one-upmanship to better himself over his peers, such as boasting about how he trains specific parts of his body.'
 	employeeText.style.fontSize = '1.2em';
