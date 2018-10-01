@@ -37,7 +37,7 @@
 	font-weight: bold;
 	text-shadow: 1px 1px black;
 	animation-name: offerEnlarger;
-	animation-duration: 30s;
+	animation-duration: 20s;
 	animation-iteration-count: infinite;
 }
 .contactInfo{
