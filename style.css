@@ -2,7 +2,6 @@
 	margin: 0;
 }
 .wrapper{
-	height: 99vh;
 }
 .signUpWrapper{
 	display: grid;
@@ -76,7 +75,6 @@
 	height: 5vh;
 	margin-left: 38%;
 	margin-top: 1%;
-
 }
 .secondWrapper{
 /*	background-image: url("images/bluebg2.jpg");*/
@@ -143,8 +141,8 @@
 }
 .smallCompanyImage{
 	margin: 2% auto;
-	width: 15vw;
-	height: 10vw;
+	width: 12vw;
+	height: 7vw;
 	border: 2px solid;
 	position:relative;	
 }
@@ -152,7 +150,8 @@
 	display: grid;
 	grid-template-columns: .2fr 1fr;
 	background-size: 100% 100%;
-	background-color :#d3d3d3; 
+	background-color :#d3d3d3;
+	height: 100vh; 
 
 }
 .employeeGallery{
@@ -304,4 +303,91 @@
 	50%{font-style: 3em;}
 	75%{font-size: 2em;}
 	100%{color:black;}
+}
+@media only screen and (max-width: 1094px) and (min-width: 769px){
+	.secondWrapper{
+	display: grid;
+	grid-template-rows: .8fr 1.8fr;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 1%;
+}
+	.smallImageGallery{
+	display: none;
+	text-align: center;
+	margin:0;
+	}
+	.smallCompanyImage{
+	width: 0;
+	height: 0;	
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+	.secondWrapper{
+	display: grid;
+	grid-template-rows: .8fr 1.8fr;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 1%;
+	}
+	.smallImageGallery{
+	display: none;
+	text-align: center;
+	margin:0;
+	}
+	.smallCompanyImage{
+	width: 0;
+	height: 0;	
+	}
+	.contactInfo button{
+	width: 10vw;
+	grid-column: 2/3;
+	height: 5vh;
+	margin-left: 38%;
+	margin-top: 1%;
+	}
+	.contactInfo input{
+	height: 2em;
+	margin-top: 6%;
+	width: 90%;
+	}
+	.secondWrapper{
+/*	background-image: url("images/bluebg2.jpg");*/
+	background-size: 100% 100%;
+	display: grid;
+	grid-template-rows: .8fr 1.9fr .2fr;
+	grid-template-columns: 1fr 1fr;
+}
+.companyDescription{
+	height: 96.5%;
+	width: 80%;
+	margin: auto auto;
+	padding: 2% 2%;
+	background-color: #EEE0E5;
+	border:1px solid;
+	border-radius: 10px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+.companyDescription p{
+/*	color: #bf00ff;*/
+	font-weight: bold;
+	font-size: .9em;
+	margin-top: 5%;
+}
+.companyDescription a{
+	font-weight: bolder;
+	text-decoration: none;
+	color: grey;
+	text-shadow: 1px 1px black;
+}
+.midWrapper{
+	margin-top: -5%;
+}
+	@keyframes offerEnlarger{
+	0%{color:black;}
+	25%{font-size: 1.5em;}
+	50%{font-style: 2em;}
+	75%{font-size: 1.5em;}
+	100%{color:black;}
+	}
 }
