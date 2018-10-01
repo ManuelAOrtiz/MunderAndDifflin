@@ -235,7 +235,8 @@ function dwightClick(screenWidth){
 	employeeWrapper.style.gridTemplateColumns = '.9fr 1fr';
 	employeeTextH1.style.fontSize = '2em';
 	}else if(screenWidth < 426){
-
+		var thirdWrapper = document.getElementById('thirdWrapper');
+		document.removeChild(thirdWrapper);
 	}else{
 	employeeTextH1.style.fontSize = '3em';
 	employeeWrapper.style.gridTemplateRows = '13vh .8fr 15vh'
