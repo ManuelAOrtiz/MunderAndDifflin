@@ -2,7 +2,6 @@
 	margin: 0;
 }
 .wrapper{
-	height: 99vh;
 }
 .signUpWrapper{
 	display: grid;
@@ -151,7 +150,8 @@
 	display: grid;
 	grid-template-columns: .2fr 1fr;
 	background-size: 100% 100%;
-	background-color :#d3d3d3; 
+	background-color :#d3d3d3;
+	height: 100vh; 
 
 }
 .employeeGallery{
@@ -354,13 +354,13 @@
 /*	background-image: url("images/bluebg2.jpg");*/
 	background-size: 100% 100%;
 	display: grid;
-	grid-template-rows: .8fr 1.9fr .4fr;
+	grid-template-rows: .8fr 1.9fr .2fr;
 	grid-template-columns: 1fr 1fr;
 }
 .companyDescription{
-	height: 80%;
-	width: 85%;
-	margin: auto 2%;
+	height: 96.5%;
+	width: 80%;
+	margin: auto auto;
 	padding: 2% 2%;
 	background-color: #EEE0E5;
 	border:1px solid;
