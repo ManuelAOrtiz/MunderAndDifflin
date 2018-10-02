@@ -109,8 +109,8 @@ function jimClick(screenWidth){
 	employeeText.style.fontSize = '1em';
 	employeeWrapper.style.gridTemplateColumns = '.8fr 1fr'
 	employeeText.innerHTML = "Jim Halpert was born on October 1, 1978, to Gerald and Betsy Halpert. He has two brothers, Pete and Tom, who share his general love of pranks but have come across as unpleasant and somewhat bullying towards their little brother. Jim's parents presumably live in Scranton as well, as well as his sister Larissa and best friend Alan Murphy, who are listed as his emergency contacts at Dunder Mifflin. While Pete and Tom have been seen on the show a few times,";
-	employeeWrapper.style.gridTemplateRows = '20vh 50vh 1fr';
-	employeeText.style.marginTop = '65%';
+	employeeWrapper.style.gridTemplateRows = '17vh 50vh 1fr';
+	employeeText.style.marginTop = '50%';
 	}else if(screenWidth < 425){
 	employeeTextH1.style.fontSize = '3em';
 	}
@@ -152,8 +152,8 @@ function mikeClick(screenWidth){
 	if(screenWidth >= 426 &&screenWidth <= 768){
 	employeeTextH1.style.fontSize = '2em';
 	employeeText.style.fontSize = '1em';
-	employeeText.style.marginTop = '60%';
-	employeeWrapper.style.gridTemplateRows = '20vh 50vh 1fr';
+	employeeWrapper.style.gridTemplateRows = '17vh 50vh 1fr';
+	employeeText.style.marginTop = '50%';
 	employeeText.innerHTML = 'Michael Gary Scott was born March 15, 1964 in Scranton, Pennsylvania. He came from a relatively difficult childhood of loneliness. In "Diversity Day", Michael claims to be of English, Irish, German and Scottish ancestry. He also claims to be two-fifteenths Native American. He has mentioned a stepfather, Jeff, whom he despises. In "Nepotism", it is revealed that Michael had a half-sister, from whom he was estranged for 15 years.'	
 	}else if(screenWidth < 426){
 
@@ -191,10 +191,11 @@ function mikeClick(screenWidth){
 
 function pamClick(screenWidth){
 	if(screenWidth >= 426 &&screenWidth <= 768){
-	employeeWrapper.style.gridTemplateRows = '20vh 50vh 1fr';
-	employeeText.style.marginTop = '45%';
+	employeeWrapper.style.gridTemplateRows = '17vh 50vh 1fr';
+	employeeText.style.marginTop = '30%';
 	employeeWrapper.style.gridTemplateColumns = '.9fr 1fr';
 	employeeTextH1.style.fontSize = '2em';
+	employeeText.innerHTML = 'In the season 4 premiere, "Fun Run", Jim and Pam confess that they have started dating after the camera crew catches them kissing. The office ultimately learns of their relationship in "Dunder Mifflin Infinity". In "Chair Model", after teasing Pam about his impending proposal, Jim tells the documentary crew he is not kidding around about an engagement and shows them a ring he bought a week after he and Pam started dating. In the next few episodes, Jim fake-proposes to Pam multiple times. In "Goodbye, Toby", Pam discovers shes been accepted at Pratt Institute, an art and design school in Brooklyn .';
 	}else if(screenWidth < 426){
 
 	}
@@ -202,6 +203,8 @@ function pamClick(screenWidth){
 	employeeWrapper.style.gridTemplateRows = '13vh .8fr 15vh'
 	employeeText.style.margin = '30% 1%';
 	employeeTextH1.style.fontSize = '3em';
+	employeeText.innerHTML = 'In the season 4 premiere, "Fun Run", Jim and Pam confess that they have started dating after the camera crew catches them kissing. The office ultimately learns of their relationship in "Dunder Mifflin Infinity". In "Chair Model", after teasing Pam about his impending proposal, Jim tells the documentary crew he is not kidding around about an engagement and shows them a ring he bought a week after he and Pam started dating. In the next few episodes, Jim fake-proposes to Pam multiple times. In "Goodbye, Toby", Pam discovers shes been accepted at Pratt Institute, an art and design school in Brooklyn . In an interview later in the episode, Jim announces that he will propose to Pam that evening. Just as Jim is preparing to propose, however, Andy Bernard stands up and makes his own impromptu proposal to Angela.';
+
 	}
 	employeeImage.style.backgroundImage = 'url('+pamUrl+')';
 	employeeImage.style.backgroundSize = '100% 100%';
@@ -221,7 +224,7 @@ function pamClick(screenWidth){
 	employeeTextH1.style.gridColumn = '2/3';
 	employeeTextH1.textAlign = 'center'
 
-	employeeText.innerHTML = 'In the season 4 premiere, "Fun Run", Jim and Pam confess that they have started dating after the camera crew catches them kissing. The office ultimately learns of their relationship in "Dunder Mifflin Infinity". In "Chair Model", after teasing Pam about his impending proposal, Jim tells the documentary crew he is not kidding around about an engagement and shows them a ring he bought a week after he and Pam started dating. In the next few episodes, Jim fake-proposes to Pam multiple times. In "Goodbye, Toby", Pam discovers shes been accepted at Pratt Institute, an art and design school in Brooklyn . In an interview later in the episode, Jim announces that he will propose to Pam that evening. Just as Jim is preparing to propose, however, Andy Bernard stands up and makes his own impromptu proposal to Angela.';
+	// employeeText.innerHTML = 'In the season 4 premiere, "Fun Run", Jim and Pam confess that they have started dating after the camera crew catches them kissing. The office ultimately learns of their relationship in "Dunder Mifflin Infinity". In "Chair Model", after teasing Pam about his impending proposal, Jim tells the documentary crew he is not kidding around about an engagement and shows them a ring he bought a week after he and Pam started dating. In the next few episodes, Jim fake-proposes to Pam multiple times. In "Goodbye, Toby", Pam discovers shes been accepted at Pratt Institute, an art and design school in Brooklyn . In an interview later in the episode, Jim announces that he will propose to Pam that evening. Just as Jim is preparing to propose, however, Andy Bernard stands up and makes his own impromptu proposal to Angela.';
 	employeeText.style.fontSize = '1em';
 	employeeText.style.gridColumn = '1/2';
 	employeeText.style.gridRow  = '1/4';
@@ -230,17 +233,20 @@ function pamClick(screenWidth){
 }
 function dwightClick(screenWidth){
 	if(screenWidth >= 426 &&screenWidth <= 768){
-	employeeWrapper.style.gridTemplateRows = '20vh 50vh 1fr';
-	employeeText.style.marginTop = '45%';
+	employeeWrapper.style.gridTemplateRows = '17vh 50vh 1fr';
+	employeeText.style.marginTop = '20%';
 	employeeWrapper.style.gridTemplateColumns = '.9fr 1fr';
 	employeeTextH1.style.fontSize = '2em';
+	employeeText.innerHTML = 'When the series begins, Dwight Schrute is a competent salesman, despite lacking general knowledge, at the Scranton branch of the paper distribution company, Dunder Mifflin. Dwight formally held the title of "Assistant to the Regional Manager",[4] but constantly refers to himself as "Assistant Regional Manager", attempting to elevate himself to second-in-command to branch Manager, Michael Scott. (Michael privately makes him Assistant Manager in "The Fight", tells him that no record/mention will be kept of the "title change only", then never acknowledges it again.) Dwight craves authority over his co-workers, and relishes any minor task that Michael or anyone else will give him.';
 	}else if(screenWidth < 426){
 		var thirdWrapper = document.getElementById('thirdWrapper');
 		document.removeChild(thirdWrapper);
 	}else{
 	employeeTextH1.style.fontSize = '3em';
-	employeeWrapper.style.gridTemplateRows = '13vh .8fr 15vh'
-	employeeWrapper.style.gridTemplateColumns = '.7fr 1fr'
+	employeeWrapper.style.gridTemplateRows = '13vh .8fr 15vh';
+	employeeWrapper.style.gridTemplateColumns = '.7fr 1fr';
+	employeeText.innerHTML = 'When the series begins, Dwight Schrute is a competent salesman, despite lacking general knowledge, at the Scranton branch of the paper distribution company, Dunder Mifflin. Dwight formally held the title of "Assistant to the Regional Manager",[4] but constantly refers to himself as "Assistant Regional Manager", attempting to elevate himself to second-in-command to branch Manager, Michael Scott. (Michael privately makes him Assistant Manager in "The Fight", tells him that no record/mention will be kept of the "title change only", then never acknowledges it again.) Dwight craves authority over his co-workers, and relishes any minor task that Michael or anyone else will give him.[2] Although Dwight acts superior to many individuals and is often resourceful in crises, he is shown to actually be quite gullible, ignorant, and naïve.[2] For this reason, he is easily tricked and pranked by his desk-mate and fellow salesman, Jim Halpert. Dwight often speaks in a halting, intense manner, even in casual conversations.[2] At the office, his most recurring formal wear is a mustard-colored, short-sleeved collared shirt, with a dark necktie and, usually, a brown suit jacket. He often uses one-upmanship to better himself over his peers, such as boasting about how he trains specific parts of his body.'
+
 	}
 
 	employeeImage.style.backgroundImage = 'url('+dwightUrl+')';
@@ -258,7 +264,7 @@ function dwightClick(screenWidth){
 	employeeTextH1.style.gridRow = '3/4';
 	employeeTextH1.style.gridColumn = '1/2';
 
-	employeeText.innerHTML = 'When the series begins, Dwight Schrute is a competent salesman, despite lacking general knowledge, at the Scranton branch of the paper distribution company, Dunder Mifflin. Dwight formally held the title of "Assistant to the Regional Manager",[4] but constantly refers to himself as "Assistant Regional Manager", attempting to elevate himself to second-in-command to branch Manager, Michael Scott. (Michael privately makes him Assistant Manager in "The Fight", tells him that no record/mention will be kept of the "title change only", then never acknowledges it again.) Dwight craves authority over his co-workers, and relishes any minor task that Michael or anyone else will give him.[2] Although Dwight acts superior to many individuals and is often resourceful in crises, he is shown to actually be quite gullible, ignorant, and naïve.[2] For this reason, he is easily tricked and pranked by his desk-mate and fellow salesman, Jim Halpert. Dwight often speaks in a halting, intense manner, even in casual conversations.[2] At the office, his most recurring formal wear is a mustard-colored, short-sleeved collared shirt, with a dark necktie and, usually, a brown suit jacket. He often uses one-upmanship to better himself over his peers, such as boasting about how he trains specific parts of his body.'
+	// employeeText.innerHTML = 'When the series begins, Dwight Schrute is a competent salesman, despite lacking general knowledge, at the Scranton branch of the paper distribution company, Dunder Mifflin. Dwight formally held the title of "Assistant to the Regional Manager",[4] but constantly refers to himself as "Assistant Regional Manager", attempting to elevate himself to second-in-command to branch Manager, Michael Scott. (Michael privately makes him Assistant Manager in "The Fight", tells him that no record/mention will be kept of the "title change only", then never acknowledges it again.) Dwight craves authority over his co-workers, and relishes any minor task that Michael or anyone else will give him.[2] Although Dwight acts superior to many individuals and is often resourceful in crises, he is shown to actually be quite gullible, ignorant, and naïve.[2] For this reason, he is easily tricked and pranked by his desk-mate and fellow salesman, Jim Halpert. Dwight often speaks in a halting, intense manner, even in casual conversations.[2] At the office, his most recurring formal wear is a mustard-colored, short-sleeved collared shirt, with a dark necktie and, usually, a brown suit jacket. He often uses one-upmanship to better himself over his peers, such as boasting about how he trains specific parts of his body.'
 	employeeText.style.fontSize = '0.9em';
 	employeeText.style.gridColumn = '2/3';
 	employeeText.style.gridRow  = '1/3';

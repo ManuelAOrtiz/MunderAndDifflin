@@ -67,15 +67,15 @@
 }*/
 .secondWrapper{
 /*	background-image: url("images/bluebg2.jpg");*/
-	background-size: 100% 100%;
+/*	background-size: 100% 100%;
 	display: grid;
 	grid-template-rows: .8fr 1.8fr .4fr;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;*/
 }
 .secondTitle{
 	margin:2% auto;
 	grid-row: 1/2;
-	grid-column: 1/3;
+/*	grid-column: 1/3;*/
 	width: 70vw;
 	color:white;
 	font-weight: bold;
@@ -110,7 +110,6 @@
 	grid-template-rows: 1fr 1fr;
 }
 .companyDescription p{
-/*	color: #bf00ff;*/
 	font-weight: bold;
 	font-size: 1.1em;
 	margin-top: 5%;
@@ -128,31 +127,12 @@
 	text-align: center;
 	margin: 1% 0;
 }
-.smallCompanyImage{
-	margin: 2% auto;
-	width: 12vw;
-	height: 7vw;
-	border: 2px solid;
-	position:relative;	
-}
-/*.thirdWrapper{
-	display: grid;
-	grid-template-columns: .2fr 1fr;
-	background-size: 100% 100%;
-	background-color :#d3d3d3;
-	height: 100vh; 
-
-}*/
 .employeeGallery{
 	grid-column: 1/2;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	height: 100%;
 }
-/*.employeeGallery div{
-	margin: 2%;
-	border:1px solid;
-}*/
 .employeeWrapper{
 	grid-column: 2/3; 
 	margin: auto auto;
@@ -204,7 +184,7 @@
 	width: 100%;
 	grid-row: 1/2;
 }*/
-.stats{
+/*.stats{
 	display: grid;
 	grid-template-rows: .1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -221,7 +201,7 @@
 	font-weight: bolder;
 	text-decoration: underline;
 	margin-top: 2%;
-}
+}*/
 .byTheNumbers{
 	text-align: center;
 	margin-top: 5%;
@@ -234,12 +214,12 @@
 	display: grid;
 	grid-template-rows: 1fr .2fr;
 }*/
-.companyProductImage{
+/*.companyProductImage{
 	text-align: center;
 	height: 20vh;
 	width: 15vw;
 	margin:auto auto;
-}
+}*/
 #product1{
 	background-image: url('images/1.png');
 	background-size: 100% 100%;
@@ -293,51 +273,85 @@
 	75%{font-size: 2em;}
 	100%{color:black;}
 }
-@media only screen and (max-width: 1094px) and (min-width: 769px){
-	.secondWrapper{
-	display: grid;
-	grid-template-rows: .8fr 1.8fr;
-	grid-template-columns: 1fr 1fr;
-	margin-bottom: 1%;
-}
-	.smallImageGallery{
-	display: none;
-	text-align: center;
-	margin:0;
-	}
-	.smallCompanyImage{
-	width: 0;
-	height: 0;	
-	}
-}
-
 @media only screen and (max-width: 768px) and (min-width: 426px){
-	.secondWrapper{
+	.signUpWrapper{
 	display: grid;
-	grid-template-rows: .8fr 1.8fr;
-	grid-template-columns: 1fr 1fr;
-	margin-bottom: 1%;
-	}
-	.smallImageGallery{
-	display: none;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr .4fr 1fr;
+	grid-column-gap: 2%;
 	text-align: center;
-	margin:0;
+	background-size: 100% 100%;
 	}
-	.smallCompanyImage{
-	width: 0;
-	height: 0;	
+	.companyLogo{
+		height: 41vh;
 	}
-	.contactInfo button{
-	width: 10vw;
-	grid-column: 2/3;
-	height: 5vh;
-	margin-left: 38%;
-	margin-top: 1%;
+	.signUpText{
+		text-align: center;
+		font-size: 2em;
+	}
+	.contactInfo{
+		display:grid;
+		grid-template-rows: 1fr 1fr 1fr .5fr;
+		grid-template-columns: .3fr 1fr;
+		background-color: lightgrey;
+		border:1px solid;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contactInfo p{
+		text-align: right;
+		font-size: 1.5em;
+		font-weight: bold;
+		height: 2em;
+		width: 100%;
+		margin-top: 3%;
+	}
+	.secondTitle{
+		grid-column: 1/3;
 	}
 	.contactInfo input{
 	height: 2em;
-	margin-top: 6%;
+	width: 80%;
+	margin-top: 1%;
+	}
+	.contactInfo button{
+	grid-column: 2/3;
+	height: 100%;
+	width: 40%;
+	margin-left: 41%;
+	}
+	.stats{
+	display: grid;
+	grid-template-rows: .1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: auto auto;
 	width: 100%;
+	height: 100%;
+	grid-row: 2/3;
+	background-color: #EEE0E5;
+}
+.statsTitle{
+	grid-column: 1/5;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-top: 2%;
+}
+	.secondWrapper{
+	display: grid;
+	grid-template-rows: .8fr 1.5fr;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 1%;
+	}
+	.smallImageGallery{
+	display: none;
+	text-align: center;
+	margin:0;
+	}
+	.smallCompanyImage{
+	width: 0;
+	height: 0;	
 	}
 	.secondWrapper{
 /*	background-image: url("images/bluebg2.jpg");*/
@@ -346,11 +360,12 @@
 	grid-template-rows: .8fr 1.9fr .2fr;
 	grid-template-columns: 1fr 1fr;
 }
+.companyDescriptionWrapper{
+	margin: auto;
+}
 .companyDescription{
-	height: 96.5%;
 	width: 80%;
-	margin: auto auto;
-	padding: 2% 2%;
+	height: 80%;
 	background-color: #EEE0E5;
 	border:1px solid;
 	border-radius: 10px;
@@ -369,8 +384,34 @@
 	color: grey;
 	text-shadow: 1px 1px black;
 }
+#galleryTarget{
+	width: 80%;
+	margin: auto auto;
+	height: 80%;
+}
 .midWrapper{
 	margin-top: -5%;
+	grid-template-rows: 1fr .5fr;
+}
+.companyFeatures{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.companyProductImage{
+	height: 70%;
+	width: 60%;
+	margin:0 auto;
+}
+.companyProduct{
+	text-align: center;
+	margin-bottom: 2%;
+}
+.thirdWrapper{
+	display: grid;
+	grid-template-columns: .2fr 1fr;
+	background-size: 100% 100%;
+	background-color :#d3d3d3;
+	height: 100vh;
 }
 	@keyframes offerEnlarger{
 	0%{color:black;}
@@ -383,7 +424,6 @@
 @media only screen and (max-width: 426px){
 	.signUpWrapper{
 		display: grid;
-		grid-template-rows: 1fr 1fr 1fr;
 		margin:0 auto;
 		width: 90%;
 	}
@@ -391,22 +431,13 @@
 		display: grid;
 		grid-template-rows: 1fr 1fr 1fr;
 	}
-	.stats{
-		display: grid;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	}
 	.companyProduct{
-/*	height: 30vh;
-*/	display: grid;
+	display: grid;
 	grid-template-rows: 1fr .2fr;
 	}
 	.copyPaperImage{
 		display: none;
 	}
-
-
-
-
 
  .thirdWrapper{
  	display: none;
@@ -454,34 +485,75 @@
 	font-weight: bold;
 	color: black;
 	text-shadow: 1px 1px black;
-	height: 80%;
 	background-color: lightgrey;
-	margin: 0 auto 3% auto;
 	border:2px solid;
-	width: 70%;
+	margin:0 auto;
+	width: 100%;
+	}
+	.contactInfo button{
+		grid-row: 4/5;
+		grid-column: 2/3;
+	}
+	.secondWrapper{
+	display: grid;
+	grid-template-rows: .5fr 1.8fr 1.8fr;
+	}
+	.
+	.secondTitle{
+		width: 95%;
+		margin:0 auto;
+	}
+	.companyDescriptionWrapper{
+		grid-row: 2/3;
+	}
+	.companyDescription{
+		margin: 0 auto;
+	}
+	#galleryTarget{
+		grid-row: 3/4;
+	}
+	.smallImageGallery{
+		height: 0;
+		border:none;
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	.smallCompanyImage{
+	display: none;
+	width: 0;
+	height: 0;
+	border:none;
+	}
+	.companyProduct{
+		text-align: center;
+	}
+	.companyProductImage{
+	text-align: center;
+	height: 40vh;
+	width: 50%;
+	margin:auto auto;
+	}
+	.statsTitle{
+		text-align: center;
+		font-size: 2em;
+		font-weight:bold;
+		text-decoration: underline;
+	}
+	.midWrapper{
+		grid-template-rows: 1fr .5fr;
+	}
+	.companyLocation{
+		width: 100%;
+	}
+	.mailSignUp{
+		grid-column: 1/3;
+		margin-top: 3%;
+	}
+
+
 }
-.contactInfo input{
-	height: 2em;
-	margin-top: 6%;
-	width: 70%;
-}
-.inputName{
-	margin-top: 10%;
-}.inputPhone{
-	margin-top: 10%;
-}
-.inputEmail{
-	margin-top: 10%;
-}
-.contactInfo button{
-	width: 5vw;
-	grid-column: 2/3;
-	height: 5vh;
-	margin-left: 38%;
-	margin-top: 1%;
-}
-}
-@media only screen and (min-width: 426px){
+@media only screen and (min-width: 769px){
 	.signUpWrapper{
 	display: grid;
 	grid-template-columns: 1fr 3fr;
@@ -490,6 +562,35 @@
 	text-align: center;
 	background-size: 100% 100%;
 	}
+	.stats{
+	display: grid;
+	grid-template-rows: .1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: auto auto;
+	width: 100%;
+	height: 100%;
+	grid-row: 2/3;
+	background-color: #EEE0E5;
+}
+.statsTitle{
+	grid-column: 1/5;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-top: 2%;
+	}
+	.secondWrapper{
+	display: grid;
+	grid-template-rows: .8fr 1.8fr .4fr;
+	grid-template-columns: 1fr 1fr;
+	}
+	#galleryTarget{
+	width: 100%;
+	margin: auto auto;
+	height: 100%;
+	}
+
 	.thirdWrapper{
 	display: grid;
 	grid-template-columns: .2fr 1fr;
@@ -500,6 +601,13 @@
 	.employeeGallery div{
 	margin: 2%;
 	border:1px solid;
+	}
+	.smallCompanyImage{
+	margin: 2% auto;
+	width: 16vw;
+	height: 14vw;
+	border: 2px solid;
+	position:relative;	
 	}
 	.companyFeatures{
 	display: grid;
@@ -514,6 +622,12 @@
 		display: grid;
 		grid-template-rows: 1fr .2fr;
 	}
+	.companyProductImage{
+	text-align: center;
+	height: 20vh;
+	width: 15vw;
+	margin:auto auto;
+}
 	.signUpText{
 	text-align: center;
 	margin-left: 35%;
@@ -525,42 +639,46 @@
 	animation-name: offerEnlarger;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
-}
-.contactInfo{
-	grid-column: 2/3;
-	grid-row: 3/4;
-	display: grid;
-	grid-template-rows: .5fr .5fr .5fr 1fr;
-	grid-template-columns: 1fr 2fr;
-	text-align: right;
-	font-size: 2em;
-	font-weight: bold;
-	color: black;
-	text-shadow: 1px 1px black;
-	height: 80%;
-	background-color: lightgrey;
-	margin: 0 auto 3% auto;
-	border:2px solid;
-	width: 70%;
-}
-.contactInfo input{
-	height: 2em;
-	margin-top: 6%;
-	width: 70%;
-}
-.inputName{
-	margin-top: 10%;
-}.inputPhone{
-	margin-top: 10%;
-}
-.inputEmail{
-	margin-top: 10%;
-}
-.contactInfo button{
-	width: 5vw;
-	grid-column: 2/3;
-	height: 5vh;
-	margin-left: 38%;
-	margin-top: 1%;
-}
+	}
+	.contactInfo{
+		grid-column: 2/3;
+		grid-row: 3/4;
+		display: grid;
+		grid-template-rows: .5fr .5fr .5fr .2fr;
+		grid-template-columns: 1fr 2fr;
+		text-align: right;
+		font-size: 2em;
+		font-weight: bold;
+		color: black;
+		text-shadow: 1px 1px black;
+		height: 80%;
+		background-color: lightgrey;
+		margin: 0 auto 3% auto;
+		border:2px solid;
+		width: 70%;
+	}
+	.contactInfo input{
+		height: 2em;
+		margin-top: 6%;
+		width: 70%;
+	}
+	.inputName{
+		margin-top: 10%;
+	}.inputPhone{
+		margin-top: 10%;
+	}
+	.inputEmail{
+		margin-top: 10%;
+	}
+	.contactInfo button{
+		width: 7vw;
+		grid-column: 2/3;
+		height: 7vh;
+		margin-left: 48%;
+		margin-bottom: 2%;
+	}
+	.secondTitle{
+		grid-column: 1/3;
+	}
+
 }
